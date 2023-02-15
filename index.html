@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HomeWorks</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="logo">
+        <img src="images/logo.svg" alt="Homeworks">
+    </div>
+    <div class="form">
+        <form action="#" class="form__body">
+            <h1 class="form__title" id="formTitle">Get your free account</h1>
+            <p class="form__desc">
+                Try homeWorks BUSINESS free for 15 days. Downgrade to Basic (Free Forever) anytime.
+            </p>
+            <div class="form__item">
+                <label for="forFullName" class="form__label">Full Name</label>
+                <input id="forFullName" type="text" name="fullName" class="form__input">
+            </div>
+            <div class="form__item">
+                <label for="forUserName" class="form__label">Your username</label>
+                <input id="forUserName" type="text" name="userName" class="form__input">
+            </div>
+            <div class="form__item">
+                <label for="email" class="form__label">E-mail</label>
+                <input id="email" type="email" name="email" class="form__input">
+            </div>
+            <div class="form__item">
+                <label for="password" class="form__label">Password</label>
+                <input id="password" type="password" name="password" class="form__input">
+            </div>
+            <div class="form__item">
+                <label for="repeatPassword" class="form__label">Repeat Password</label>
+                <input id="repeatPassword" type="password" name="password" class="form__input">
+            </div>
+            <div class="form__item">
+                <div class="checkbox">
+                    <input id="formAgreement" type="checkbox" checked name="agreement" class="checkbox__input">
+                    <label for="formAgreement" class="checkbox__label">
+                        Agree to our Terms of Service and Privacy Statement
+                    </label>
+                </div>
+            </div>
+            <div class="form__actions">
+                <button id="submit" type="button" class="form__button">Sign Up</button>
+                <div class="have-account" id="link">
+                    <a href="#">Already have an account?</a>
+                </div>
+            </div>
+        </form>
+
+    </div>
+    <div class="image">
+        <img src="images/image.svg" alt="Rocket">
+    </div>
+</div>
+
+<div id="popup" class="popup hide">
+    <div class="popup__body">
+        <div class="popup__content">
+            <span class="popup__text">На вашу почту выслана ссылка, перейдите по ней, чтобы завершить регистрацию</span>
+            <button type="button" id="popup__button" class="popup__button">ОК</button>
+        </div>
+    </div>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>5365
